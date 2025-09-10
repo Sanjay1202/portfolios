@@ -62,7 +62,7 @@ function Contact() {
                       <Form.Label>Name *</Form.Label>
                       <Form.Control
                         type="text"
-                        name="name" // This 'name' attribute must match your EmailJS template variable
+                        name="name" 
                         required
                         placeholder="Your full name"
                       />
@@ -73,7 +73,7 @@ function Contact() {
                       <Form.Label>Email *</Form.Label>
                       <Form.Control
                         type="email"
-                        name="email" // This 'name' attribute must match your EmailJS template variable
+                        name="email" 
                         required
                         placeholder="your.email@example.com"
                       />
@@ -84,7 +84,7 @@ function Contact() {
                   <Form.Label>Subject</Form.Label>
                   <Form.Control
                     type="text"
-                    name="subject" // This 'name' attribute must match your EmailJS template variable
+                    name="subject" 
                     placeholder="What's this about?"
                   />
                 </Form.Group>
@@ -93,7 +93,7 @@ function Contact() {
                   <Form.Control
                     as="textarea"
                     rows={5}
-                    name="message" // This 'name' attribute must match your EmailJS template variable
+                    name="message" 
                     required
                     placeholder="Tell me about your project..."
                   />
@@ -111,7 +111,7 @@ function Contact() {
             </div>
           </Col>
 
-          {/* Info Column */}
+          
           <Col lg={5}>
             <div className="contact-info-wrapper">
               <h3 className="text-white mb-4">Contact Information</h3>

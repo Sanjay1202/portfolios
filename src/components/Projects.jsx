@@ -9,7 +9,7 @@ function Projects() {
       image:
         "https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=500",
       technologies: ["JavaScript", "HTML", "CSS", "TailwindCSS"],
-      githubUrl: "https://github.com/Sanjayraj-G-T/Health_monitoring_system",
+      githubUrl: "https://github.com/Sanjay1202/Health_monitoring_system",
     },
     {
       title: "Online Food Ordering System",
@@ -27,7 +27,7 @@ function Projects() {
       image:
         "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=500",
       technologies: ["HTML5", "Bootstrap", "JavaScript"],
-      githubUrl: "https://github.com/Sanjayraj-G-T/portfolio",
+      githubUrl: "https://sanjay1202.github.io/portfolio/sanjay/",
     },
     {
       title: "Inventory Management System",
@@ -36,7 +36,7 @@ function Projects() {
       image:
         "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=500",
       technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-      githubUrl: "https://github.com/Sanjayraj-G-T/Inventory_management_system",
+      githubUrl: "https://github.com/Sanjay1202/Inventory_management_system",
     },
   ];
 

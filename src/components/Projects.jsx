@@ -1,4 +1,8 @@
 import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
+import ssd from "../assets/img/ssd.png";
+import inven from '../assets/img/inventory.png';
+import portfolio from '../assets/img/portfolio.png';
+import health from '../assets/img/health.png';
 
 function Projects() {
   const projects = [
@@ -6,8 +10,7 @@ function Projects() {
       title: "Health Monitoring System",
       description:
         "A fully JavaScript-based project that utilizes simple and compact concepts to monitor and display health-related data in real time.",
-      image:
-        "https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image:health,
       technologies: ["JavaScript", "HTML", "CSS", "TailwindCSS"],
       githubUrl: "https://github.com/Sanjay1202/Health_monitoring_system",
     },
@@ -24,8 +27,7 @@ function Projects() {
       title: "Portfolio Website",
       description:
         "A responsive and professional portfolio website developed with HTML5, Bootstrap, and JavaScript to showcase projects and skills.",
-      image:
-        "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: portfolio,
       technologies: ["HTML5", "Bootstrap", "JavaScript"],
       githubUrl: "https://sanjay1202.github.io/portfolio/sanjay/",
     },
@@ -33,10 +35,17 @@ function Projects() {
       title: "Inventory Management System",
       description:
         "A web-based application for managing inventory, built with HTML, CSS, JavaScript, and PHP. Utilizes MySQL for robust data storage and retrieval. Features include product tracking, stock updates, and reporting.",
-      image:
-        "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image:inven,
       technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
       githubUrl: "https://github.com/Sanjay1202/Inventory_management_system",
+    },
+    {
+      title: "React profile website",
+      description:
+        "This page is a profile page that I have created for a education tech company using react js and bootstrap. Which was my first projct to be made using react js. Also this page is responsive for all devices.",
+      image: ssd,
+      technologies: ["React js", "Bootstrap", "JavaScript"],
+      githubUrl: "https://github.com/Sanjay1202/final",
     },
   ];
 
